@@ -11,11 +11,11 @@ std::vector<int> generateVector() {
 }
 
 int generateTargetSum() {
-    return rand() % rand();
+    return rand() % 101;
 }
 
 int generateKValue() {
-    return rand() % rand();
+    return rand() % 101;
 }
 
 void testCase1() {
